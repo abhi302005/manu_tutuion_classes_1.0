@@ -1,0 +1,296 @@
+#logo{
+  width: 13vh;
+  height: auto;
+}
+.heading{
+
+}
+#navbar_t{
+  background-color: #ffba00;
+  color: #1d1f54;
+  height: auto;
+  padding-top: 14px;
+  padding-bottom: 4px;
+    width:100%;
+  position: static;
+  padding-left: 40vh;
+  padding-right: 40vh;
+}
+#nav_lf{
+  font-weight: 800;
+  font-size: 16px;
+}
+#nav_rg{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+#nav_rg_all:hover{
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: white;
+}
+.color{
+  color: #1d1f54;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+.color:hover{
+  text-decoration: none;
+  color: #1d1f54;
+}
+
+#first_line{
+  width: 100%;
+  height: 30px;
+  font-size: 17px;
+  background-color: #1d1f57;
+  padding-left: 25%;
+  color: #ffba00;
+  /* font-weight: bold; */
+}
+#online_pay{
+  background-color: #f2b100;
+  margin-left: 30%;
+  cursor: pointer;
+  padding: 9px;
+  color: #1d1f57;
+  height: 39px;
+}
+#online_pay_font{
+  font-weight: normal;
+}
+
+
+  .head_body_intro{
+    background-color: #171813;
+  }
+
+  .head_body_intro {
+  position: relative;
+  background-color: black;
+  height: 87vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+  .head_body_intro video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+  .head_body_intro .container {
+  position: relative;
+  z-index: 2;
+}
+
+.head_body_intro .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+.head_body_intro {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+.head_body_intro video {
+    display: none;
+  }
+}
+
+#row_img{
+  width: 150px;
+  height: 100px;
+}
+
+#row_img_div{
+  margin-left: 20vh;
+}
+
+.box{
+  padding-top: 20px;
+  width: 100%;
+  height:100%;
+  position: relative;
+  background-size: cover;
+  background-color: #333333;
+}
+
+#box_content_logo{
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  color: #ffba00;
+  /* padding-top: 23px; */
+  font-size: 43px;
+}
+
+#box_content{
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  /* font-size: 22px; */
+  display: inline;
+  margin-left: 23px;
+    text-align: justify;  color: #ffba00;
+}
+#box_content_brief{
+  text-align: left;
+  padding-top: 15px;
+  font-size: 17px;
+  /* font-weight: bold; */
+  line-height: 30px;
+  font-family: 'Prociono', serif;
+  color: white;
+}
+
+.course_heading{
+  background-color: #fedc56;
+  margin-top: 23px;
+  padding-top: 53px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 7vh;
+  color: #54595f;
+}
+.course_box{
+  background-color: #e7d076;
+
+}
+ .course_content{
+  margin-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-top:50px;
+  /* width: 10em; */
+  /* height: 100%; */
+    /* width: 90vh; */
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 30px;
+
+  background-color:white;
+}
+#c_width{
+  width: 0px;
+}
+.course_content h1{
+  padding-top: 40px;
+  font-size: 5vh;
+}
+.course_content p{
+  padding-top: 20px;
+}
+
+.course_content a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.jumbotron_box{
+  background-color: #000000;
+  margin-top: 30px;
+}
+
+.jumbotron_box_content{
+  padding-top: 50px;
+  color: white;
+  padding-bottom: 50px;
+
+}
+.jumbotron_box_content h3{
+  text-align: center;
+  font-weight: 600;
+}
+.jumbotron_box_content p{
+  padding-top: 20px;
+  font-size: 23px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.jumbotron_box_table h4{
+  font-weight: 600;
+  color: #ffbb00;
+}
+
+._footer{
+  background-image: url(img/patter_blue.jpg);
+  margin-top: 50px;
+  /* position: relative; */
+  width: 100%;
+  margin-bottom: 50px;
+  height: auto;
+}
+
+._footer_col{
+  padding-top: 20px;
+  background-color: #352c7f;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  border-radius: 15px;
+}
+._footer_col form input{
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 1px;
+}
+._footer_col form label{
+  margin-top: 6px;
+  margin-bottom: -3px;
+}
+._footer_col form button{
+  margin-top: 25px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  margin-left: 65px;
+
+}
+/* ._footer_col button:hover{
+  text-decoration: underline;
+  font-size: 21px;
+} */
+
+._footer_col button{
+  margin-top: 25px;
+  background-color: #201f5f;
+  border: none;
+  color: white;
+
+  /* margin-bottom: px;
+  margin-left: 65px; */
+  width: 130px;
+  height:60px;
+}
+#bt{
+  margin-left: -5.2px;
+}
+._footer_col button:hover{
+  color: #ffba00;
+  background-color: #161542;
+}
+._footer_col h3{
+  text-align: center;
+}
